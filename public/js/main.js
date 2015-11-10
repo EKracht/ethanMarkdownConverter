@@ -15,9 +15,10 @@ function sendReq(){
     data: {string: input}
   })
   .done(function(data){
-    $('.output').empty();
+    var $output = $('.output');
+    $output.empty();
     var parsedData = $.parseHTML(data);
-    $('.output').append(parsedData);
+    $output.append(parsedData);
   })
   .fail(function(error){
   })
