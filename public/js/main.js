@@ -16,7 +16,7 @@ function sendReq(){
   })
   .done(function(data){
     $('.output').empty();
-    var parsedData = $(data);
+    var parsedData = $.parseHTML(data);
     $('.output').append(parsedData);
   })
   .fail(function(error){

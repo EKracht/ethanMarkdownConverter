@@ -5,6 +5,9 @@ body {
 button {
   margin: 15px;
   background-color: #005A31;
+  height: 40px;
+  width: 62px;
+  border-radius: 2px;
 }
 
 .input, .output {
