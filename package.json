@@ -1,19 +1,27 @@
 {
   "name": "express",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "dependencies": {
+    "body-parser": "^1.14.1",
     "express": "^4.13.3",
-    "jade": "^1.11.0",
     "marked": "^0.3.5",
-    "morgan": "^1.6.1",
-    "body-parser": "^"
+    "morgan": "^1.6.1"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EKracht/ethanMarkdownConverter.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EKracht/ethanMarkdownConverter/issues"
+  },
+  "homepage": "https://github.com/EKracht/ethanMarkdownConverter#readme",
+  "description": ""
 }
