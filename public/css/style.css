@@ -1,0 +1,18 @@
+body {
+  text-align: center;
+}
+
+button {
+  margin: 15px;
+  background-color: #005A31;
+}
+
+.input, .output {
+  height: 75vh;
+  border: 8px solid #A8CD1B;
+}
+
+.output {
+  background-color: white;
+  color: black;
+}
