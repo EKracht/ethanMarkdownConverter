@@ -1,0 +1,22 @@
+{
+  "name": "express",
+  "description": "",
+  "main": "server.js",
+  "authors": [
+    "EKracht <ethan1kracht@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/EKracht/ethanMarkdownConverter",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.5"
+  }
+}
